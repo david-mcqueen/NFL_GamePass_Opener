@@ -1,0 +1,111 @@
+/* Layout Styles */
+body {
+    width: 200px;
+    background: white;
+}
+
+div.logoContianer {
+    width: 100%;
+}
+
+div.logoIcon{
+    margin: auto;
+    width: 55%;
+}
+
+div.logoIcon img{
+    height: 150px;
+}
+
+button{
+    background: #000;
+    cursor: pointer;
+    background: black;
+    color: #fff;
+
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: .75em;
+    padding: .57em 1.35em;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,.4);
+
+}
+
+button:focus{
+    outline: 0;
+}
+
+/* Button Styles */
+.sleeperButtons{
+    width: 100%;
+    background-color: #003a73;
+    border-color: white;
+    margin:0px;
+    margin-top: 7px;
+}
+
+.sleeperButtons:hover{
+    background-color: #0462be;
+}
+
+/* Time Control Styles */
+.sleepTimeControl {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#sleepTime{
+    /* width: 60px; */
+    text-align: right;
+    max-width: 92px;
+    padding-right: 15px;
+    font-size: 19px;
+}
+
+.adjustTimeButton {
+    width: 40px;
+    flex: 0 0 auto;
+    margin: 0px 5px 0px 5px;
+}
+
+
+.adjustTimeButton:hover{
+    background-color: rgba(51,51,51,.4);
+}
+.adjustTimeButton span{
+    margin-left: -5px;
+}
+
+.unitDisplay {
+    position: absolute;
+    left: 139px;
+    top: 50px;
+    color: #969696;
+    font-size: 0.8em;
+}
+
+
+/* Icomoon fonts */
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-minus::before{
+    content: "\ea0b";
+}
+
+.icon-plus::before{
+    content: "\ea0a";
+}
